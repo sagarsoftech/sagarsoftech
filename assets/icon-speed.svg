@@ -1,0 +1,5 @@
+<svg width="80" height="80" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Speed">
+  <circle cx="40" cy="40" r="36" fill="#eaf2ff" stroke="#1e6bff"/>
+  <path d="M40 24a16 16 0 1 1 0 32a16 16 0 0 1 0-32zm-8 16h22" stroke="#1e6bff" stroke-width="4" stroke-linecap="round"/>
+  <path d="M40 40l10-6" stroke="#155ae6" stroke-width="4" stroke-linecap="round"/>
+</svg>
