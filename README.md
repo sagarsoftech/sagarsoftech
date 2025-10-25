@@ -1,5 +1,5 @@
 
-# BlueWave — Static Starter
+# SagarSoftech — Static Starter
 
 A responsive, accessible landing page template using **HTML**, **CSS**, **JavaScript**, and **jQuery**.
 
