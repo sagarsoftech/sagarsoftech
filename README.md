@@ -1,16 +1,13 @@
-## Hi there 👋
 
-<!--
-**sagarsoftech/sagarsoftech** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# BlueWave — Static Starter
 
-Here are some ideas to get you started:
+A responsive, accessible landing page template using **HTML**, **CSS**, **JavaScript**, and **jQuery**.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Quick start
+
+1. Open `index.html` in your browser (double-click) to preview locally.
+2. Edit content directly in `index.html`.
+3. Adjust colors & spacing in `css/style.css` (see `:root` variables).
+4. Deploy by uploading the folder to Netlify, Vercel, or GitHub Pages.
+
+> Note: The contact form is client-side only (no backend). Wire it to your service of choice or a server endpoint for production use.

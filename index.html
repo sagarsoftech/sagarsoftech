@@ -1,0 +1,264 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SagarSoftech</title>
+  <meta name="description" content="A clean, responsive landing page template in HTML, CSS, JavaScript, and jQuery." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="assets/logo.svg" />
+  <script defer src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script defer src="js/script.js"></script>
+</head>
+<body>
+  <!-- Preloader -->
+  <div id="preloader" aria-hidden="true">
+    <div class="spinner" role="status" aria-label="Loading"></div>
+  </div>
+
+  <!-- Back to top button -->
+  <button id="backToTop" aria-label="Back to top">↑</button>
+
+  <!-- Header / Nav -->
+  <header class="site-header" id="home">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="BlueWave home">
+        <img src="assets/logo.svg" alt="BlueWave logo" width="32" height="32" />
+        <span>SagarSoftech</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="primary-menu" aria-label="Toggle menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+        <ul id="primary-menu" class="menu">
+          <li><a class="nav-link" href="#features">Features</a></li>
+          <li><a class="nav-link" href="#projects">Projects</a></li>
+          <li><a class="nav-link" href="#pricing">Pricing</a></li>
+          <li><a class="nav-link" href="#faq">FAQ</a></li>
+          <li><a class="btn btn-primary sm-only" href="#contact">Contact</a></li>
+        </ul>
+      </nav>      
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero section">
+    <div class="container grid-2">
+      <div class="hero-copy">
+        <h1 class="headline">I’m Sagar More, an IT Consultant passionate about transforming business with technology.</h1>
+        <p class="subhead">Empowering businesses with next-gen CRM, data, and automation solutions — let’s disrupt the market together.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="#features">Explore Features</a>
+          <a class="btn btn-ghost" href="#projects">See Projects</a>
+        </div>
+       <ul class="hero-points">
+  <li>Smart, affordable IT consulting</li>
+  <li>Offshore pricing - onsite availability</li>
+  <li>Let’s disrupt the market together</li>
+</ul>
+      </div>
+      <div class="hero-media reveal">
+        <img class="hero-image" src="assets/SagarMore.jpg" alt="Abstract hero illustration in blue" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+<!-- Features -->
+<section id="features" class="section">
+  <div class="container">
+    <header class="section-header">
+      <h2>Why Choose Me</h2>
+      <p>Delivering powerful, scalable, and cost-efficient IT solutions designed to disrupt the market.</p>
+    </header>
+    <div class="cards three">
+      <article class="card reveal">
+        <img src="assets/icon-crm.svg" alt="CRM icon" class="icon" />
+        <h3>CRM Expertise</h3>
+        <p>Specialized in Siebel and Dynamics 365 — optimizing workflows, automating customer journeys, and integrating data seamlessly.</p>
+      </article>
+      <article class="card reveal">
+        <img src="assets/icon-data.svg" alt="Data icon" class="icon" />
+        <h3>Data Integration & BI</h3>
+        <p>Transforming raw data into actionable insights using Power BI, OBIEE, and SSIS — for smarter, faster decisions.</p>
+      </article>
+      <article class="card reveal">
+        <img src="assets/icon-automation.svg" alt="Automation icon" class="icon" />
+        <h3>Automation & Innovation</h3>
+        <p>Designing and implementing automation frameworks that reduce manual effort and improve delivery speed.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Projects / Gallery -->
+  <section id="projects" class="section alt">
+    <div class="container">
+      <header class="section-header">
+        <h2>Recent Work</h2>
+        <!-- simple gallery grid—swap these with your own screenshots. -->
+      </header>
+      <div class="gallery">
+        <figure class="tile reveal"><img src="assets/thumb-1.svg" alt="Project 1" /><figcaption>D365 Customer Service Process Implementation</figcaption></figure>
+        <figure class="tile reveal"><img src="assets/thumb-2.svg" alt="Project 2" /><figcaption>Siebel CRM Sales and Service Implementation</figcaption></figure>
+        <figure class="tile reveal"><img src="assets/thumb-3.svg" alt="Project 3" /><figcaption>Power BI and DAX Project Implementation</figcaption></figure>
+        <figure class="tile reveal"><img src="assets/thumb-4.svg" alt="Project 4" /><figcaption>Azure Synapse DW Implementation</figcaption></figure>
+        <figure class="tile reveal"><img src="assets/thumb-5.svg" alt="Project 5" /><figcaption>Data Migration of 30 millions records from 7 different application</figcaption></figure>
+        <figure class="tile reveal"><img src="assets/thumb-6.svg" alt="Project 6" /><figcaption>OBIEE Reporting</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section id="pricing" class="section">
+    <div class="container">
+      <header class="section-header">
+        <h2>Simple & Transparent Engagement</h2>
+        <p>Start small - scale when you need more.</p>
+		<p>Get the flexibility of offshore pricing with the convenience of onsite availability.</p>
+      </header>
+      <div class="cards three pricing">
+       <!-- <article class="card reveal">
+          <h3>Starter</h3>
+          <p class="price">€0<span>/mo</span></p>
+          <ul class="features-list">
+            <li>Basic pages</li>
+            <li>Email support</li>
+            <li>Community access</li>
+          </ul>
+          <a href="#contact" class="btn btn-ghost">Get Started</a>
+        </article>
+        <article class="card featured reveal" aria-label="Popular plan">
+          <div class="badge">Popular</div>
+          <h3>Pro</h3>
+          <p class="price">€19<span>/mo</span></p>
+          <ul class="features-list">
+            <li>Everything in Starter</li>
+            <li>Custom sections</li>
+            <li>Priority support</li>
+          </ul>
+          <a href="#contact" class="btn btn-primary">Choose Pro</a>
+        </article>
+        <article class="card reveal">
+          <h3>Business</h3>
+          <p class="price">€49<span>/mo</span></p>
+          <ul class="features-list">
+            <li>Unlimited pages</li>
+            <li>Team workflows</li>
+            <li>SLA support</li>
+          </ul>
+          <a href="#contact" class="btn btn-ghost">Talk to Sales</a>
+        </article>
+      </div> -->
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="section alt">
+    <div class="container">
+      <header class="section-header">
+        <h2>Frequently Asked Questions</h2>
+        <p>Quick answers about my services, process, and project support.</p>
+      </header>
+
+      <div class="accordion">
+        <div class="acc-item">
+          <button class="acc-trigger" aria-expanded="false" aria-controls="faq1">Can I hire you for short-term or one-time projects?</button>
+          <div id="faq1" class="acc-panel" hidden>
+            <p>Absolutely. I work flexibly on short-term tasks, proof of concepts, and long-term consulting engagements depending on your needs.</p>
+          </div>
+        </div>
+        <div class="acc-item">
+          <button class="acc-trigger" aria-expanded="false" aria-controls="faq2">What technologies do you specialize in?</button>
+          <div id="faq2" class="acc-panel" hidden>
+            <p>I have strong expertise in CRM (Dynamics 365,Siebel), Data Integration (Informatica, SSIS), BI Reporting (OBIEE, Power BI), and Cloud (Azure, AWS).</p>
+          </div>
+        </div>
+        <div class="acc-item">
+          <button class="acc-trigger" aria-expanded="false" aria-controls="faq3">Do you offer support after project delivery?</button>
+          <div id="faq3" class="acc-panel" hidden>
+            <p>Yes, I provide ongoing support and maintenance to ensure everything continues to run smoothly — or I can train your team for complete handover.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container grid-2">
+      <div>
+        <header class="section-header left">
+          <h2>Contact</h2>
+          <p>Tell us what you need and we’ll get back to you.</p>
+        </header>
+        <ul class="contact-points">
+          <li><strong>Email:</strong> sagarsantoshmore@gmail.com.com</li>
+          <li><strong>Phone:</strong> +32 466 27 83 44</li>
+          <li><strong>Address:</strong> 1000 Brussels</li>
+        </ul>
+      </div>
+    <form action="https://formspree.io/f/mldoejpk" method="POST" id="contact-form">
+  <div class="form-row">
+    <label for="email">Email</label>
+    <input id="email" name="email" type="email" placeholder="you@company.com" required />
+  </div>
+
+  <div class="form-row">
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="5" placeholder="Tell us about your project" required></textarea>
+  </div>
+
+  <button type="submit" class="btn btn-primary">Send Message</button>
+
+  <p id="formStatus" class="form-status" role="status" aria-live="polite"></p>
+</form>
+
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> SagarSoftech. All rights reserved.</p>
+      <nav aria-label="Footer">
+        <a href="#home">Home</a>
+        <a href="#features">Features</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </footer>
+  
+  <script>
+const form = document.getElementById('contact-form');
+const status = document.getElementById('formStatus');
+
+form.addEventListener('submit', async (e) => {
+  e.preventDefault();
+  const data = new FormData(form);
+  const response = await fetch(form.action, {
+    method: form.method,
+    body: data,
+    headers: { 'Accept': 'application/json' }
+  });
+  
+  if (response.ok) {
+    status.textContent = "✅ Message sent successfully! I’ll get back to you soon.";
+    form.reset();
+  } else {
+    status.textContent = "❌ Something went wrong. Please try again later.";
+  }
+});
+</script>
+
+
+</body>
+</html>
