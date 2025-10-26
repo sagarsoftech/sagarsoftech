@@ -281,4 +281,6 @@ a{color:inherit; text-decoration:none}
 .tile:hover .desc {
   opacity: 1;
 }
-
+html {
+  scroll-behavior: smooth;
+}
