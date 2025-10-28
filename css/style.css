@@ -284,7 +284,6 @@ a{color:inherit; text-decoration:none}
 html {
   scroll-behavior: smooth;
 }
-
 /* Client Tiles Grid */
 .client-grid {
   display: grid;
@@ -298,12 +297,18 @@ html {
 /* Individual Client Tile */
 .client-tile {
   background-color: #f5f5f5;
-  padding: 25px 20px;
+  padding: 20px;
+  width: 140px;            /* fixed width for uniformity */
+  height: 100px;           /* fixed height for uniform tiles */
   border-radius: 12px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 600;
   text-align: center;
+  display: flex;           /* flex to center content */
+  flex-direction: column;
+  justify-content: center; /* vertical centering */
+  align-items: center;     /* horizontal centering */
   transition: transform 0.3s, background-color 0.3s;
   cursor: default;
 }
@@ -320,6 +325,7 @@ html {
   transform: translateY(-3px);
   background-color: #e0e0e0;
 }
+
 
 
 /* ----------- */
